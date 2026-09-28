@@ -16,11 +16,11 @@ export const Hero = () => {
   return (
     <section id="top" className="relative pt-6 md:pt-10 overflow-hidden" data-testid="hero-section">
       {/* decorative corners */}
-      <img src="/art/branch-topleft.png" alt="" className="pointer-events-none select-none absolute -left-2 top-16 w-[210px] anim-sway hidden sm:block" />
-      <img src="/art/branch-topright.png" alt="" className="pointer-events-none select-none absolute right-0 top-[60px] w-[110px] md:w-[145px] anim-sway" />
-      <img src="/art/bee.png" alt="" className="pointer-events-none select-none absolute right-[14%] top-[110px] w-[64px] anim-drift hidden md:block" />
-      <img src="/art/flowers-left.png" alt="" className="pointer-events-none select-none absolute -left-3 top-[300px] w-[150px] md:w-[215px] hidden sm:block" />
-      <img src="/art/lavender-right.png" alt="" className="pointer-events-none select-none absolute -right-2 top-[380px] w-[100px] md:w-[144px] hidden md:block" />
+      <img src="/Saffron-wonders-2/art/branch-topleft.png" alt="" className="pointer-events-none select-none absolute -left-2 top-16 w-[210px] anim-sway hidden sm:block" />
+      <img src="/Saffron-wonders-2/art/branch-topright.png" alt="" className="pointer-events-none select-none absolute right-0 top-[60px] w-[110px] md:w-[145px] anim-sway" />
+      <img src="/Saffron-wonders-2/art/bee.png" alt="" className="pointer-events-none select-none absolute right-[14%] top-[110px] w-[64px] anim-drift hidden md:block" />
+      <img src="/Saffron-wonders-2/art/flowers-left.png" alt="" className="pointer-events-none select-none absolute -left-3 top-[300px] w-[150px] md:w-[215px] hidden sm:block" />
+      <img src="/Saffron-wonders-2/art/lavender-right.png" alt="" className="pointer-events-none select-none absolute -right-2 top-[380px] w-[100px] md:w-[144px] hidden md:block" />
 
       <div className="max-w-[1180px] mx-auto px-6 md:px-10 pt-6 md:pt-8 pb-12">
         <div className="grid md:grid-cols-[minmax(0,300px)_1fr] lg:grid-cols-[minmax(0,330px)_1fr] gap-8 md:gap-10 items-center">
