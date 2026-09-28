@@ -14,7 +14,7 @@ const scrollTo = (id) => {
 export const Hero = () => {
   useReveal();
   return (
-    <section id="top" className="relative pt-[72px] overflow-hidden" data-testid="hero-section">
+    <section id="top" className="relative pt-6 md:pt-10 overflow-hidden" data-testid="hero-section">
       {/* decorative corners */}
       <img src="/art/branch-topleft.png" alt="" className="pointer-events-none select-none absolute -left-2 top-16 w-[210px] anim-sway hidden sm:block" />
       <img src="/art/branch-topright.png" alt="" className="pointer-events-none select-none absolute right-0 top-[60px] w-[110px] md:w-[145px] anim-sway" />
@@ -101,13 +101,19 @@ export const Features = () => {
           {features.headingA} <em className="text-orange not-italic font-display italic">{features.headingB}</em>
         </h2>
         <p className="reveal reveal-delay-2 mt-4 text-[17px] text-[#5a5262]">{features.sub}</p>
+      </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-8 mt-14 md:mt-16">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-16 text-center">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-12 sm:gap-10 lg:gap-16 xl:gap-24 mt-14 md:mt-16">
           {features.items.map((f, i) => {
             const Icon = icons[f.icon];
             return (
-              <article key={f.id} className={`sw-card reveal reveal-delay-${i + 1} flex flex-col items-center`} data-testid={`feature-card-${f.id}`}>
-                <div className="w-full max-w-[330px] aspect-[16/10] overflow-hidden rounded-[28px]">
+              <article
+                key={f.id}
+                className={`sw-card reveal reveal-delay-${i + 1} flex flex-col items-center ${i === 1 ? "lg:mt-10" : ""}`}
+                data-testid={`feature-card-${f.id}`}
+              >
+                <div className="w-full max-w-[360px] aspect-[16/10] overflow-hidden rounded-[28px]">
                   <img src={f.image} alt={f.title} className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className={`-mt-7 relative z-10 w-14 h-14 rounded-full ${f.tint} flex items-center justify-center shadow-[0_10px_24px_-12px_rgba(77,42,134,0.4)] ring-4 ring-[#f9efe1]`}>

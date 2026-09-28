@@ -2,14 +2,12 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "./components/ui/sonner";
-import Navbar from "./components/Navbar";
 import { Hero, Features } from "./components/Sections";
 import { Ideas, Contact, Footer } from "./components/ContactSections";
 
 const Landing = () => {
   return (
     <div className="sw-page">
-      <Navbar />
       <main>
         <Hero />
         <Features />
