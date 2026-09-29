@@ -9,7 +9,7 @@ export const Ideas = () => {
   useReveal();
   return (
     <section id="community" className="relative pt-16 md:pt-24 pb-10 md:pb-16 overflow-hidden scroll-mt-16" data-testid="ideas-section">
-      <img src="/Saffron-wonders-2/art/leaf-branch-right.png" alt="" className="pointer-events-none select-none absolute right-0 -top-2 w-[160px] md:w-[205px] anim-sway hidden md:block" />
+      <img src="/art/leaf-branch-right.png" alt="" className="pointer-events-none select-none absolute right-0 -top-2 w-[160px] md:w-[205px] anim-sway hidden md:block" />
 
       <div className="max-w-[1180px] mx-auto px-6 md:px-10">
         <div className="grid lg:grid-cols-[1fr_minmax(0,520px)] gap-10 lg:gap-12 items-center">
@@ -30,7 +30,7 @@ export const Ideas = () => {
 
           <div className="reveal reveal-delay-1 relative">
             <img
-              src="/Saffron-wonders-2/art/village-signpost.png"
+              src="/art/village-signpost.png"
               alt="Watercolour view of Saffron Walden with a signpost reading Children, Community, Nature, Creativity"
               className="w-full max-w-[560px] mx-auto"
               loading="lazy"
@@ -83,9 +83,9 @@ export const Contact = () => {
       <div id="say-hello" className="absolute -top-16" />
       {/* blob background */}
       <div className="absolute inset-x-[-10%] top-10 bottom-0 sw-blob opacity-90 pointer-events-none" aria-hidden />
-      <img src="/Saffron-wonders-2/art/lowers-bottom-left.png" alt="" className="pointer-events-none select-none absolute -left-2 bottom-0 w-[150px] md:w-[230px] hidden sm:block" />
-      <img src="/Saffron-wonders-2/art/flowers-bottom-right.png" alt="" className="pointer-events-none select-none absolute -right-2 bottom-0 w-[130px] md:w-[200px] hidden sm:block" />
-      <img src="/Saffron-wonders-2/art/ladybird.png" alt="" className="pointer-events-none select-none absolute left-[15%] top-[60px] w-[44px] anim-float hidden md:block" />
+      <img src="/art/lowers-bottom-left.png" alt="" className="pointer-events-none select-none absolute -left-2 bottom-0 w-[150px] md:w-[230px] hidden sm:block" />
+      <img src="/art/flowers-bottom-right.png" alt="" className="pointer-events-none select-none absolute -right-2 bottom-0 w-[130px] md:w-[200px] hidden sm:block" />
+      <img src="/art/ladybird.png" alt="" className="pointer-events-none select-none absolute left-[15%] top-[60px] w-[44px] anim-float hidden md:block" />
 
       <div className="relative max-w-[1180px] mx-auto px-6 md:px-10 pt-20 md:pt-28">
         <div className="grid md:grid-cols-[minmax(0,420px)_1fr] gap-10 md:gap-16 items-center">
