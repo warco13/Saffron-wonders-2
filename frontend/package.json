@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/Saffron-wonders-2/",
+  "homepage": "/",
   "dependencies": {
     "@hookform/resolvers": "5.0.1",
     "@radix-ui/react-accordion": "1.2.8",
