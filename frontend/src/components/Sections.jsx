@@ -16,11 +16,11 @@ export const Hero = () => {
   return (
     <section id="top" className="relative pt-6 md:pt-10 overflow-hidden" data-testid="hero-section">
       {/* decorative corners */}
-      <img src="/Saffron-wonders-2/art/branch-topleft.png" alt="" className="pointer-events-none select-none absolute -left-2 top-16 w-[210px] anim-sway hidden sm:block" />
-      <img src="/Saffron-wonders-2/art/branch-topright.png" alt="" className="pointer-events-none select-none absolute right-0 top-[60px] w-[110px] md:w-[145px] anim-sway" />
-      <img src="/Saffron-wonders-2/art/bee.png" alt="" className="pointer-events-none select-none absolute right-[14%] top-[110px] w-[64px] anim-drift hidden md:block" />
-      <img src="/Saffron-wonders-2/art/flowers-left.png" alt="" className="pointer-events-none select-none absolute -left-3 top-[300px] w-[150px] md:w-[215px] hidden sm:block" />
-      <img src="/Saffron-wonders-2/art/lavender-right.png" alt="" className="pointer-events-none select-none absolute -right-2 top-[380px] w-[100px] md:w-[144px] hidden md:block" />
+      <img src="/art/branch-topleft.png" alt="" className="pointer-events-none select-none absolute -left-2 top-16 w-[210px] anim-sway hidden sm:block" />
+      <img src="/art/branch-topright.png" alt="" className="pointer-events-none select-none absolute right-0 top-[60px] w-[110px] md:w-[145px] anim-sway" />
+      <img src="/art/bee.png" alt="" className="pointer-events-none select-none absolute right-[14%] top-[110px] w-[64px] anim-drift hidden md:block" />
+      <img src="/art/flowers-left.png" alt="" className="pointer-events-none select-none absolute -left-3 top-[300px] w-[150px] md:w-[215px] hidden sm:block" />
+      <img src="/art/lavender-right.png" alt="" className="pointer-events-none select-none absolute -right-2 top-[380px] w-[100px] md:w-[144px] hidden md:block" />
 
       <div className="max-w-[1180px] mx-auto px-6 md:px-10 pt-6 md:pt-8 pb-12">
         <div className="grid md:grid-cols-[minmax(0,300px)_1fr] lg:grid-cols-[minmax(0,330px)_1fr] gap-8 md:gap-10 items-center">
@@ -29,7 +29,7 @@ export const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-white/50 blur-2xl" />
               <img
-                src="/Saffron-wonders-2/art/logo.png"
+                src="/art/logo.png"
                 alt="Saffron Wonders logo - a crocus flower growing from intertwined trees"
                 className="relative w-[230px] sm:w-[260px] md:w-[300px] lg:w-[330px] anim-float"
                 data-testid="hero-logo"
@@ -89,7 +89,7 @@ export const Features = () => {
   useReveal();
   return (
     <section id="what-we-do" className="relative bg-[#f9efe1] pt-14 pb-20 md:pb-28 overflow-hidden scroll-mt-16" data-testid="features-section">
-      <img src="/Saffron-wonders-2/art/butterfly.png" alt="" className="pointer-events-none select-none absolute right-[8%] top-[70px] w-[60px] anim-drift hidden md:block" />
+      <img src="/art/butterfly.png" alt="" className="pointer-events-none select-none absolute right-[8%] top-[70px] w-[60px] anim-drift hidden md:block" />
 
       <div className="max-w-[1180px] mx-auto px-6 md:px-10 text-center">
         <div className="reveal inline-flex items-center gap-3">
