@@ -36,8 +36,6 @@ jobs:
 
       - name: Build website
         working-directory: frontend
-        env:
-          PUBLIC_URL: /Saffron-wonders-2
         run: npm run build
 
       - name: Setup GitHub Pages
