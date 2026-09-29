@@ -29,7 +29,7 @@ export const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 rounded-full bg-white/50 blur-2xl" />
               <img
-                src="/art/logo.png"
+                src="/Saffron-wonders-2/art/logo.png"
                 alt="Saffron Wonders logo - a crocus flower growing from intertwined trees"
                 className="relative w-[230px] sm:w-[260px] md:w-[300px] lg:w-[330px] anim-float"
                 data-testid="hero-logo"
@@ -39,7 +39,7 @@ export const Hero = () => {
 
           {/* Copy */}
           <div className="relative text-center md:text-left reveal reveal-delay-1">
-            <img src="/art/village-hero.png" alt="" className="pointer-events-none select-none hidden lg:block absolute -right-16 top-8 w-[280px] xl:w-[300px] opacity-95" />
+            <img src="/Saffron-wonders-2/art/village-hero.png" alt="" className="pointer-events-none select-none hidden lg:block absolute -right-16 top-8 w-[280px] xl:w-[300px] opacity-95" />
             <div className="relative lg:pr-[220px] xl:pr-[240px]">
               <h1 className="font-display font-semibold leading-[0.9] tracking-tight" data-testid="hero-title">
                 <span className="block text-purple text-[64px] sm:text-[80px] md:text-[92px]">
@@ -89,7 +89,7 @@ export const Features = () => {
   useReveal();
   return (
     <section id="what-we-do" className="relative bg-[#f9efe1] pt-14 pb-20 md:pb-28 overflow-hidden scroll-mt-16" data-testid="features-section">
-      <img src="/art/butterfly.png" alt="" className="pointer-events-none select-none absolute right-[8%] top-[70px] w-[60px] anim-drift hidden md:block" />
+      <img src="/Saffron-wonders-2/art/butterfly.png" alt="" className="pointer-events-none select-none absolute right-[8%] top-[70px] w-[60px] anim-drift hidden md:block" />
 
       <div className="max-w-[1180px] mx-auto px-6 md:px-10 text-center">
         <div className="reveal inline-flex items-center gap-3">
