@@ -22,7 +22,7 @@ const Landing = () => {
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/Saffron-wonders-2">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
         </Routes>
